@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           tl.net
+@namespace      https://github.com/0x7C2f/TL-Enhanced
+@version        1.0.0
+@description    A restyle of tl.net
+@author         0x7C2f
+==/UserStyle== */
+
+@-moz-document url-prefix("https://tl.net/") {
+    #navwrapper {
+        width: 100%
+    }
+    #main-content {
+        width: 54%
+    }
+    #main-left-sidebar {
+        width: 23%
+    }
+    #main-right-sidebar {
+        width: -23%
+    }
+}
